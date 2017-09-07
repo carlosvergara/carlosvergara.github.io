@@ -4,7 +4,15 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/project/r/</loc>
+      <loc>/publication/asthma_cc/</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>/project/r/</loc>
       <lastmod>2017-03-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -12,7 +20,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -20,7 +28,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/talk/example-talk/</loc>
+      <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,7 +36,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/post/</loc>
+      <loc>/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -36,7 +44,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/publication/</loc>
+      <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -44,7 +52,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/talk/</loc>
+      <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,7 +60,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/post/knitr/</loc>
+      <loc>/post/knitr/</loc>
       <lastmod>2015-05-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -60,7 +68,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/post/instalar-r-linux/</loc>
+      <loc>/post/instalar-r-linux/</loc>
       <lastmod>2015-05-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +76,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/post/loess/</loc>
+      <loc>/post/loess/</loc>
       <lastmod>2015-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -76,7 +84,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/post/saludos/</loc>
+      <loc>/post/saludos/</loc>
       <lastmod>2015-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -84,7 +92,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/publication/thermo-dta/</loc>
+      <loc>/publication/thermo-dta/</loc>
       <lastmod>2015-04-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -92,7 +100,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/publication/thermo-sr/</loc>
+      <loc>/publication/thermo-sr/</loc>
       <lastmod>2014-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -100,8 +108,8 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/publication_types/2/</loc>
-      <lastmod>2015-04-01T00:00:00+00:00</lastmod>
+      <loc>/publication_types/2/</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -109,7 +117,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/categories/bootstrap/</loc>
+      <loc>/categories/bootstrap/</loc>
       <lastmod>2015-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -118,7 +126,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/</loc>
+      <loc>/</loc>
       <lastmod>2017-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -127,7 +135,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/categories/</loc>
+      <loc>/categories/</loc>
       <lastmod>2015-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -136,7 +144,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/categories/ic/</loc>
+      <loc>/categories/ic/</loc>
       <lastmod>2015-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -145,7 +153,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/knitr/</loc>
+      <loc>/tags/knitr/</loc>
       <lastmod>2015-05-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -154,7 +162,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/linux/</loc>
+      <loc>/tags/linux/</loc>
       <lastmod>2015-05-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -163,7 +171,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/categories/loess/</loc>
+      <loc>/categories/loess/</loc>
       <lastmod>2015-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -172,7 +180,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/project/</loc>
+      <loc>/project/</loc>
       <lastmod>2017-03-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,8 +189,8 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/publication_types/</loc>
-      <lastmod>2015-04-01T00:00:00+00:00</lastmod>
+      <loc>/publication_types/</loc>
+      <lastmod>2017-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -190,7 +198,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2017-03-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -199,7 +207,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/categories/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2015-05-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -208,7 +216,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/r-markdown/</loc>
+      <loc>/tags/r-markdown/</loc>
       <lastmod>2015-05-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -217,7 +225,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/rstudio/</loc>
+      <loc>/tags/rstudio/</loc>
       <lastmod>2015-05-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -226,7 +234,7 @@
     
     
     <url>
-      <loc>http://carlosvergara.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

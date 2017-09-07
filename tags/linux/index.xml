@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Carlos Vergara-Hernández</title>
-    <link>http://carlosvergara.github.io/tags/linux/</link>
+    <link>/tags/linux/</link>
     <description>Recent content in Linux on Carlos Vergara-Hernández</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -12,16 +12,11 @@
     
     <item>
       <title>R en Linux</title>
-      <link>http://carlosvergara.github.io/post/instalar-r-linux/</link>
+      <link>/post/instalar-r-linux/</link>
       <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/instalar-r-linux/</guid>
-      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
-&lt;!-- /BLOGDOWN-HEAD --&gt;
-
-&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
-&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
-&lt;p&gt;Hola muchachada.&lt;/p&gt;
+      <guid>/post/instalar-r-linux/</guid>
+      <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… paquetes de &lt;code&gt;R&lt;/code&gt;, y por si fuera poco atractivo para cualquier alma de cántaro, paquetes de &lt;code&gt;R&lt;/code&gt; en Linux.&lt;/p&gt;
 &lt;p&gt;Resulta que acabo de actualizar unos paquetes de &lt;code&gt;R&lt;/code&gt; y se me ha ocurrido escribir un poco al respecto. No me gusta abarcar más de lo que me corresponde, así que solo voy a explicar cómo actualizar el programa de forma automática, y cómo sorteo alguna que otra incomodidad de la instalación y actualización de paquetes.&lt;/p&gt;
 &lt;div id=&#34;instalar-y-actualizar-r-de-forma-automatica&#34; class=&#34;section level2&#34;&gt;

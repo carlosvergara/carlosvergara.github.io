@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Carlos Vergara-Hernández</title>
-    <link>http://carlosvergara.github.io/categories/r/</link>
+    <link>/categories/r/</link>
     <description>Recent content in R on Carlos Vergara-Hernández</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Informes dinámicos con knitr</title>
-      <link>http://carlosvergara.github.io/post/knitr/</link>
+      <link>/post/knitr/</link>
       <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/knitr/</guid>
+      <guid>/post/knitr/</guid>
       <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… informes, ha oído usted bien (popularidad a tope).&lt;/p&gt;
 &lt;div id=&#34;erase-una-vez-algo-llamado-ciencia&#34; class=&#34;section level2&#34;&gt;
@@ -137,7 +137,7 @@ mi_den &amp;lt;- ggplot(example, aes(colour = trat, x = chol)) + geom_line(stat 
   labs(x = &amp;#39;Colesterol (mg./dl.)&amp;#39;, y = &amp;#39;Densidad&amp;#39;, title = &amp;#39;&amp;#39;, colour = &amp;#39;&amp;#39;) +
   mi_theme
 grid.arrange(mi_box, mi_den, nrow = 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Sin duda, esto es adictivo. Pero ¿qué tal se ven los gráficos básicos, p. ej., de un ANOVA?&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mi_aov &amp;lt;- aov(chol ~ trat, example)
 par(mar = c(4, 4, 1, 1), bty = &amp;#39;l&amp;#39;, family = &amp;#39;serif&amp;#39;, mgp = c(2, 0.5, 0), xaxs = &amp;#39;i&amp;#39;, yaxs = &amp;#39;i&amp;#39;)
@@ -152,7 +152,7 @@ qqnorm(mi_aov$residuals, xlab = &amp;#39;Cuantiles teóricos&amp;#39;, main = &a
                     xlim = c(-3, 3), ylim = c(-60, 60))
 qqline(mi_aov$residuals, col = 2)
 abline(h = 0, lty = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mi_aov)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##              Df Sum Sq Mean Sq F value Pr(&amp;gt;F)    
 ## trat          2 150867   75433   219.9 &amp;lt;2e-16 ***
@@ -214,10 +214,10 @@ kable(mi_aov, digits = 2, caption = &amp;#39;Tabla del ANOVA&amp;#39;)&lt;/code&
     
     <item>
       <title>Intervalos de confianza bootstrap de un ajuste LOESS</title>
-      <link>http://carlosvergara.github.io/post/loess/</link>
+      <link>/post/loess/</link>
       <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/loess/</guid>
+      <guid>/post/loess/</guid>
       <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… remuestreo para calcular un intervalo de confianza.&lt;/p&gt;
 &lt;p&gt;Imaginemos que queremos hacer una regresión local y que tenemos interés en generar un intervalo de confianza al 95 % para dicho ajuste LOESS (que es lo que viene a significar &lt;em&gt;regresión local&lt;/em&gt;)… pues bien, una de las formas de hacerlo es mediante remuestreo &lt;em&gt;bootstrap&lt;/em&gt;. Esta idea, la del &lt;em&gt;bootstrap&lt;/em&gt;, me gusta mucho: generar un porrón de curvas y, en lugar de calcular un error estándar al que multiplicar por 1.96 para hallar el IC (asumiendo normalidad, algo bastante arriesgado), quedarse con los cuantiles 0.025 y 0.975 de los ajustes a modo de las bandas inferior y superior de un IC al 95 %.&lt;/p&gt;
@@ -265,7 +265,7 @@ sapply(c(0.025, 0.975), function(x) {
 mtext(side = 1, text = &amp;quot;Variable X&amp;quot;, line = 0, outer = T)
 mtext(side = 2, text = &amp;quot;Variable Y&amp;quot;, line = 0.5, outer = T, las = 0)&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://carlosvergara.github.io/post/loess_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original&#34; width=&#34;1248&#34; /&gt;
+&lt;img src=&#34;/post/loess_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original&#34; width=&#34;1248&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original
 &lt;/p&gt;

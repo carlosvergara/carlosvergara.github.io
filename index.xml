@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Carlos Vergara-Hernández on Carlos Vergara-Hernández</title>
-    <link>http://carlosvergara.github.io/</link>
+    <link>/</link>
     <description>Recent content in Carlos Vergara-Hernández on Carlos Vergara-Hernández</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -11,11 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Asthma in older people hospitalized with influenza in Spain: A case-control study</title>
+      <link>/publication/asthma_cc/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/asthma_cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Paquetes de R</title>
-      <link>http://carlosvergara.github.io/project/r/</link>
+      <link>/project/r/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/project/r/</guid>
+      <guid>/project/r/</guid>
       <description>
 
 &lt;h2 id=&#34;fisabior&#34;&gt;fisabior&lt;/h2&gt;
@@ -32,20 +41,20 @@
     
     <item>
       <title>Example Talk</title>
-      <link>http://carlosvergara.github.io/talk/example-talk/</link>
+      <link>/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/talk/example-talk/</guid>
+      <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Informes dinámicos con knitr</title>
-      <link>http://carlosvergara.github.io/post/knitr/</link>
+      <link>/post/knitr/</link>
       <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/knitr/</guid>
+      <guid>/post/knitr/</guid>
       <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… informes, ha oído usted bien (popularidad a tope).&lt;/p&gt;
 &lt;div id=&#34;erase-una-vez-algo-llamado-ciencia&#34; class=&#34;section level2&#34;&gt;
@@ -167,7 +176,7 @@ mi_den &amp;lt;- ggplot(example, aes(colour = trat, x = chol)) + geom_line(stat 
   labs(x = &amp;#39;Colesterol (mg./dl.)&amp;#39;, y = &amp;#39;Densidad&amp;#39;, title = &amp;#39;&amp;#39;, colour = &amp;#39;&amp;#39;) +
   mi_theme
 grid.arrange(mi_box, mi_den, nrow = 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Sin duda, esto es adictivo. Pero ¿qué tal se ven los gráficos básicos, p. ej., de un ANOVA?&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mi_aov &amp;lt;- aov(chol ~ trat, example)
 par(mar = c(4, 4, 1, 1), bty = &amp;#39;l&amp;#39;, family = &amp;#39;serif&amp;#39;, mgp = c(2, 0.5, 0), xaxs = &amp;#39;i&amp;#39;, yaxs = &amp;#39;i&amp;#39;)
@@ -182,7 +191,7 @@ qqnorm(mi_aov$residuals, xlab = &amp;#39;Cuantiles teóricos&amp;#39;, main = &a
                     xlim = c(-3, 3), ylim = c(-60, 60))
 qqline(mi_aov$residuals, col = 2)
 abline(h = 0, lty = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mi_aov)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##              Df Sum Sq Mean Sq F value Pr(&amp;gt;F)    
 ## trat          2 150867   75433   219.9 &amp;lt;2e-16 ***
@@ -244,16 +253,11 @@ kable(mi_aov, digits = 2, caption = &amp;#39;Tabla del ANOVA&amp;#39;)&lt;/code&
     
     <item>
       <title>R en Linux</title>
-      <link>http://carlosvergara.github.io/post/instalar-r-linux/</link>
+      <link>/post/instalar-r-linux/</link>
       <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/instalar-r-linux/</guid>
-      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
-&lt;!-- /BLOGDOWN-HEAD --&gt;
-
-&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
-&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
-&lt;p&gt;Hola muchachada.&lt;/p&gt;
+      <guid>/post/instalar-r-linux/</guid>
+      <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… paquetes de &lt;code&gt;R&lt;/code&gt;, y por si fuera poco atractivo para cualquier alma de cántaro, paquetes de &lt;code&gt;R&lt;/code&gt; en Linux.&lt;/p&gt;
 &lt;p&gt;Resulta que acabo de actualizar unos paquetes de &lt;code&gt;R&lt;/code&gt; y se me ha ocurrido escribir un poco al respecto. No me gusta abarcar más de lo que me corresponde, así que solo voy a explicar cómo actualizar el programa de forma automática, y cómo sorteo alguna que otra incomodidad de la instalación y actualización de paquetes.&lt;/p&gt;
 &lt;div id=&#34;instalar-y-actualizar-r-de-forma-automatica&#34; class=&#34;section level2&#34;&gt;
@@ -287,10 +291,10 @@ kable(mi_aov, digits = 2, caption = &amp;#39;Tabla del ANOVA&amp;#39;)&lt;/code&
     
     <item>
       <title>Intervalos de confianza bootstrap de un ajuste LOESS</title>
-      <link>http://carlosvergara.github.io/post/loess/</link>
+      <link>/post/loess/</link>
       <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/loess/</guid>
+      <guid>/post/loess/</guid>
       <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… remuestreo para calcular un intervalo de confianza.&lt;/p&gt;
 &lt;p&gt;Imaginemos que queremos hacer una regresión local y que tenemos interés en generar un intervalo de confianza al 95 % para dicho ajuste LOESS (que es lo que viene a significar &lt;em&gt;regresión local&lt;/em&gt;)… pues bien, una de las formas de hacerlo es mediante remuestreo &lt;em&gt;bootstrap&lt;/em&gt;. Esta idea, la del &lt;em&gt;bootstrap&lt;/em&gt;, me gusta mucho: generar un porrón de curvas y, en lugar de calcular un error estándar al que multiplicar por 1.96 para hallar el IC (asumiendo normalidad, algo bastante arriesgado), quedarse con los cuantiles 0.025 y 0.975 de los ajustes a modo de las bandas inferior y superior de un IC al 95 %.&lt;/p&gt;
@@ -338,7 +342,7 @@ sapply(c(0.025, 0.975), function(x) {
 mtext(side = 1, text = &amp;quot;Variable X&amp;quot;, line = 0, outer = T)
 mtext(side = 2, text = &amp;quot;Variable Y&amp;quot;, line = 0.5, outer = T, las = 0)&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://carlosvergara.github.io/post/loess_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original&#34; width=&#34;1248&#34; /&gt;
+&lt;img src=&#34;/post/loess_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original&#34; width=&#34;1248&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: Ajuste sobre los datos originales, sobre todos los remuestros bootstrap y selección de un IC 95 % para el ajuste original
 &lt;/p&gt;
@@ -350,10 +354,10 @@ Figure 1: Ajuste sobre los datos originales, sobre todos los remuestros bootstra
     
     <item>
       <title>Saludo inicial</title>
-      <link>http://carlosvergara.github.io/post/saludos/</link>
+      <link>/post/saludos/</link>
       <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/saludos/</guid>
+      <guid>/post/saludos/</guid>
       <description>&lt;p&gt;Comienzo la andadura en este lugar (gracias a &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; y &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34;&gt;Github Pages&lt;/a&gt;). No pretendo abarcar mucho, solo quiero contribuir a mi manera en la difusión de R dentro del mundillo epidemiológico, a la vez que me desahogo sacando a pasear mi &lt;em&gt;biutiful palangana&lt;/em&gt; en forma de posts, a veces un tanto académicos, otras más viscerales y repletos de roña humana.&lt;/p&gt;
 
 &lt;p&gt;Nada más, socios.&lt;/p&gt;
@@ -364,19 +368,19 @@ Figure 1: Ajuste sobre los datos originales, sobre todos los remuestros bootstra
     
     <item>
       <title>Infrared thermography is useful for ruling out fractures in paediatric emergencies</title>
-      <link>http://carlosvergara.github.io/publication/thermo-dta/</link>
+      <link>/publication/thermo-dta/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/publication/thermo-dta/</guid>
+      <guid>/publication/thermo-dta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Infrared thermal imaging in the diagnosis of musculoskeletal injuries: a systematic review and meta-analysis</title>
-      <link>http://carlosvergara.github.io/publication/thermo-sr/</link>
+      <link>/publication/thermo-sr/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/publication/thermo-sr/</guid>
+      <guid>/publication/thermo-sr/</guid>
       <description></description>
     </item>
     

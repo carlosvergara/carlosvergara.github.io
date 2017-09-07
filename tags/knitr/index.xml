@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knitr on Carlos Vergara-Hernández</title>
-    <link>http://carlosvergara.github.io/tags/knitr/</link>
+    <link>/tags/knitr/</link>
     <description>Recent content in Knitr on Carlos Vergara-Hernández</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Informes dinámicos con knitr</title>
-      <link>http://carlosvergara.github.io/post/knitr/</link>
+      <link>/post/knitr/</link>
       <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://carlosvergara.github.io/post/knitr/</guid>
+      <guid>/post/knitr/</guid>
       <description>&lt;p&gt;Hola muchachada.&lt;/p&gt;
 &lt;p&gt;Hoy la palangana viene repleta de… informes, ha oído usted bien (popularidad a tope).&lt;/p&gt;
 &lt;div id=&#34;erase-una-vez-algo-llamado-ciencia&#34; class=&#34;section level2&#34;&gt;
@@ -137,7 +137,7 @@ mi_den &amp;lt;- ggplot(example, aes(colour = trat, x = chol)) + geom_line(stat 
   labs(x = &amp;#39;Colesterol (mg./dl.)&amp;#39;, y = &amp;#39;Densidad&amp;#39;, title = &amp;#39;&amp;#39;, colour = &amp;#39;&amp;#39;) +
   mi_theme
 grid.arrange(mi_box, mi_den, nrow = 1)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/box.den-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Sin duda, esto es adictivo. Pero ¿qué tal se ven los gráficos básicos, p. ej., de un ANOVA?&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mi_aov &amp;lt;- aov(chol ~ trat, example)
 par(mar = c(4, 4, 1, 1), bty = &amp;#39;l&amp;#39;, family = &amp;#39;serif&amp;#39;, mgp = c(2, 0.5, 0), xaxs = &amp;#39;i&amp;#39;, yaxs = &amp;#39;i&amp;#39;)
@@ -152,7 +152,7 @@ qqnorm(mi_aov$residuals, xlab = &amp;#39;Cuantiles teóricos&amp;#39;, main = &a
                     xlim = c(-3, 3), ylim = c(-60, 60))
 qqline(mi_aov$residuals, col = 2)
 abline(h = 0, lty = 2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://carlosvergara.github.io/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/knitr_files/figure-html/aov.g-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(mi_aov)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##              Df Sum Sq Mean Sq F value Pr(&amp;gt;F)    
 ## trat          2 150867   75433   219.9 &amp;lt;2e-16 ***
